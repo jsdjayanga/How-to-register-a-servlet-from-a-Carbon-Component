@@ -1,0 +1,10 @@
+<component xmlns="http://products.wso2.org/carbon">
+    <servlets>
+        <servlet id="SampleServlet">
+            <servlet-name>sampleServlet</servlet-name>
+            <url-pattern>/sampleservlet</url-pattern>
+            <display-name>Sample Servlet</display-name>
+            <servlet-class>org.wso2.carbon.samples.xmlbased.SampleServlet</servlet-class>
+        </servlet>
+    </servlets>
+</component>
